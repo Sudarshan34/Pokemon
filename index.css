@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  box-shadow: 2px 3px 10px yellowgreen;
+  margin-bottom: 50px;
+  outline: none;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+input {
+        width : 300px;
+        height:40px;
+        border-radius: 10px;
+
+}
+
+button {
+  margin: 10px;
+  padding:10px;
+  background-color: white;
+  color: white;
+  font-size: 1rem;
+  color: black;
+  border-radius: 10px;
+}
+
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body{
+  background-color: black;
+  color: white;
+
+width: auto;
+
+}
+
+.cardDiv {
+  margin: 10px;
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: white;
+  color: black; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cardDiv span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+span {
+  border: 2px solid yellowgreen;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: black;
+}
+
+.abilitiesDiv {
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.abilitiesDiv p {
+  padding: 10px;
+  margin-left: 5px;
+  border: 2px solid yellowgreen;
+}
+
+h2{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  
+}
+
+img{
+  filter: drop-shadow(3px 3px 10px yellowgreen);
+}
